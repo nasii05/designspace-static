@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+:root{
+   --primary:#2F80ED;
+   --bg-color: bisque;
+
+}
+
+#section-1{
+    width: 100%;
+    height: 29rem;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+}
+
+#text-area{
+    width: 50%;
+    background-color: azure;
+    height: 29rem;
+}
+
+#image-area{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+#navbar{
+   position: relative;
+   width: 48rem;
+   height: 6rem;
+   left: 0;
+   background-color: red;
+}
+#provide-area{
+    position: relative;
+    width: 48rem;
+    height: 23rem;
+    background-color: var(--primary);
+    border-bottom-left-radius: 12rem;
+}
+
+#list-area{
+    width: 80rem;
+    height: 6rem;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;    
+    justify-content:flex-start;
+    background-color: rgb(255, 142, 142);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+}
+
+li{
+    font-size: 19px;
+}
+
+#contact{
+    margin-left: 6.5rem;
+}
+
+#chevron-down{
+    position: relative;
+    left: 40px;
+    top: 2px;
+    fill: white;
+}
+
+.lists{
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29rem;
+    background-color: red;
+}
+
+#search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar-container{
+    width: 23rem;
+    height: 4rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar{
+    border: none;
+    height: 2rem;
+    border-radius: 20px;
+    display: flex;
+}
+
+#search-bar::placeholder{
+    color: var(--primary);
+    position: relative;
+    left: 50px;
+}
