@@ -19,7 +19,7 @@
 
 #text-area{
     width: 50%;
-    background-color: rgb(174, 248, 248);
+    background-color: rgb(0, 0, 0);
     height: 29rem;
 }
 
@@ -125,7 +125,7 @@ li{
     position: relative;
     height: 6rem;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206, 36, 36);
     display: flex;
 }
 
@@ -142,4 +142,8 @@ li{
     background-color: var(--primary);
     left: 3rem;
     top: 3rem;
+}
+
+.list-item{
+    color: white;
 }
